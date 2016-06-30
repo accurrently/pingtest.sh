@@ -1,6 +1,9 @@
 #!/bin/bash
 
+# Change this to set file ouput
 OUTFILE=pingresults.txt
+
+# IP/FQDN of host is first and only argument
 HOST="$1"
 
 echo "Begin - $(date)"  > $OUTFILE
